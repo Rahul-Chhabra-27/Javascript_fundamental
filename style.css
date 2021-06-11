@@ -1,0 +1,70 @@
+:root{
+    --primary-color:#525c80;
+    --white-color:#fff;
+    --button-color:#6805f2;
+}
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #7f7f7f;
+    line-height: 1.7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: #150031;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    width:400px;
+    height: 320px;
+    font-size: 20px;
+    color:var(--white-color);
+    margin: 0px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h3{
+    margin: 20px 0px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+input[type="text"] {
+    padding:13px;
+    color:var(--white-color);
+    font-weight: bolder;
+    margin-top:10px;
+    background-color: #333;
+    margin: 5px 20px;
+    outline: none;
+    border:none;
+    font-size: 16px;
+}
+input[type="text"]::placeholder {
+    color:white;
+    opacity: 0.5;
+}
+input[type="submit"] {
+    padding:10px 40px;
+    color:#333;
+    background-color: var(--white-color);
+    margin-top:20px;
+    align-self: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition-duration: .7s;
+    transition-property: all;
+    outline: none;
+    border: none;
+}
+input[type="submit"]:hover {
+    background-color: var(--button-color);
+    color:var(--white-color);
+    opacity: 0.6;
+}
