@@ -34,7 +34,7 @@ h3{
     font-size: 24px;
     font-weight: bolder;
 }
-input[type="text"] {
+input {
     padding:13px;
     color:var(--white-color);
     font-weight: bolder;
@@ -45,7 +45,7 @@ input[type="text"] {
     border:none;
     font-size: 16px;
 }
-input[type="text"]::placeholder {
+input::placeholder {
     color:white;
     opacity: 0.5;
 }
